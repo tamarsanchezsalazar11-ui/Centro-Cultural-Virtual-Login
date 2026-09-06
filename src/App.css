@@ -1,0 +1,62 @@
+.padre{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.tamaño-imagen{
+    width: 70%;
+    height: 800px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.estilo-profile{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cajatexto{
+    background-color: rgb(233, 238, 227);
+    border-color: rgb(72, 220, 46);
+    border-radius: 35px;
+    width: 100%;
+    padding: 8px;
+    border-width: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}
+.cajatexto:focus{
+   outline: 1px solid rgb(72, 220, 46);
+    box-shadow: 0 0 10px rgb(72, 220, 46);
+    
+}
+.btnform{
+    background-color: rgb(247, 247, 247);
+    border-color: rgb(72, 220, 46);
+    border-radius: 35px;
+    width: 100%;
+    padding: 8px;
+    border-width: 0px;
+    margin-bottom: 20px;
+
+}
+.texto{
+    font-size: 15px;
+    color: rgb(21, 6, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+      margin-right: 20px;
+}
+.btnswicht{
+    background-color: rgb(235, 232, 79);
+    border-radius: 30px;
+    padding: 8px;
+    border-width: 0px;
+    color: rgb(31, 2, 2);
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 8px;
+}
